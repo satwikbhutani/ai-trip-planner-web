@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
-import Index from './createTrip/index.jsx'
+import CreateTrip from './createTrip/index.jsx'
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import ViewTrip from './viewTrip/[tripID]/index.jsx'
 import Header from './components/header.jsx';
@@ -17,7 +17,7 @@ const router=createBrowserRouter([
   },
   {
     path:'/createTrip',
-    element:<Index/>
+    element:<CreateTrip/>
   },
   {
     path:'/viewTrip/:tripID',
