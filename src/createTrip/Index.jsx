@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { startChatSession } from "../services/AImodel"
+import { startChatSession } from "../services/AImodel.jsx"
 // import { chatSession } from '../services/AImodel.jsx';
 // import GooglePlacesAutocomplete from 'react-google-places-autocomplete'
 import { setDoc } from 'firebase/firestore';
